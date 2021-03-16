@@ -1,2 +1,2 @@
-# ArcoLinux Calamares configuration git
+# ArcoLinux Calamares configuration
 
