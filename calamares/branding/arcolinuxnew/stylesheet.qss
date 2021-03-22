@@ -394,5 +394,5 @@ QProgressBar::chunk {
 	color: #292F34;
 }
 #debugButton:hover {
-	color: #ffffff;
+	color: #292F34;
 }
