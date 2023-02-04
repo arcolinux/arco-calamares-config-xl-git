@@ -29,6 +29,12 @@ Use gammaray
 
 /* ########## MAIN APPLICATION WINDOW ########## */
 
+#mainApp {
+}
+
+#sidebarApp {
+}
+
 #mainText{
 	font : bold 16px;
 }
