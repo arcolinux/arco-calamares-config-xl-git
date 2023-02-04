@@ -114,7 +114,6 @@ QListView {
 }
 
 QListView::item:alternate {
-	color: #58B2D7;
 	color: black;
 }
 
