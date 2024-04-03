@@ -30,6 +30,7 @@
 #tput sgr0
 ##################################################################################################################
 
+
 package_list=(
     "catfish"
     "xfce4"
@@ -37,23 +38,6 @@ package_list=(
     "arcolinux-xfce-prime-git"
     "arcolinux-faces-git"
 )
+pacman -Rns --noconfirm "${package_list[@]}"
 
-# Initialize an empty array for packages that are actually installed
-installed_packages=()
 
-# Check each package if it's installed
-for pkg in "${package_list[@]}"; do
-    if pacman -Q "$pkg" &> /dev/null; then
-        installed_packages+=("$pkg")
-    else
-        echo "$pkg is not installed."
-    fi
-done
-
-# If there are any installed packages, remove them
-if [ ${#installed_packages[@]} -ne 0 ]; then
-    echo "Removing installed packages..."
-    pacman -Rns --noconfirm "${installed_packages[@]}"
-else
-    echo "No packages from the list are installed."
-fi
