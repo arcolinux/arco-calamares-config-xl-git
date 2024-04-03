@@ -33,12 +33,11 @@
 
 package_list=(
     "catfish"
-    "prot16-xfce4-terminal"
-    "tempus-themes-xfce4-terminal-git"
     "xfce4-datetime-plugin"
     "xfce4"
     "xfce4-goodies"
-    "xfce4-terminal-base16-colors-git"
+    "arcolinux-xfce-prime-git"
+
 )
 pacman -Rns --noconfirm "${package_list[@]}"
 
