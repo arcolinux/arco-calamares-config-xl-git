@@ -48,10 +48,10 @@ Presentation
         anchors.verticalCenterOffset: 0
         Image {
             id: background2
-            source: "cal01.jpg"
+            source: "01cal.jpg"
             width: parent.width; height: parent.height
             verticalAlignment: Image.AlignTop
-            fillMode: Image.Stretch
+            fillMode: Image.PreserveAspectCrop
             anchors.fill: parent
         }
 
@@ -93,7 +93,7 @@ Presentation
             source: "cal01.jpg"
             width: parent.width; height: parent.height
             verticalAlignment: Image.AlignTop
-            fillMode: Image.Stretch
+            fillMode: Image.PreserveAspectCrop
             anchors.fill: parent
         }
 
@@ -121,7 +121,7 @@ Presentation
             source: "cal01.jpg"
             width: parent.width; height: parent.height
             verticalAlignment: Image.AlignTop
-            fillMode: Image.Stretch
+            fillMode: Image.PreserveAspectCrop
             anchors.fill: parent
         }
 
@@ -132,10 +132,10 @@ Presentation
         anchors.verticalCenterOffset: 0
         Image {
             id: background9
-            source: "cal01.jpg"
+            source: "01cal.jpg"
             width: parent.width; height: parent.height
             verticalAlignment: Image.AlignTop
-            fillMode: Image.Stretch
+            fillMode: Image.PreserveAspectCrop
             anchors.fill: parent
         }
 
@@ -149,7 +149,7 @@ Presentation
             source: "cal01.jpg"
             width: parent.width; height: parent.height
             verticalAlignment: Image.AlignTop
-            fillMode: Image.Stretch
+            fillMode: Image.PreserveAspectCrop
             anchors.fill: parent
         }
 
@@ -160,10 +160,10 @@ Presentation
         anchors.verticalCenterOffset: 0
         Image {
             id: background11
-            source: "cal01.jpg"
+            source: "01cal.jpg"
             width: parent.width; height: parent.height
             verticalAlignment: Image.AlignTop
-            fillMode: Image.Stretch
+            fillMode: Image.PreserveAspectCrop
             anchors.fill: parent
         }
 
@@ -177,7 +177,7 @@ Presentation
             source: "cal01.jpg"
             width: parent.width; height: parent.height
             verticalAlignment: Image.AlignTop
-            fillMode: Image.Stretch
+            fillMode: Image.PreserveAspectCrop
             anchors.fill: parent
         }
 
@@ -188,10 +188,10 @@ Presentation
         anchors.verticalCenterOffset: 0
         Image {
             id: background13
-            source: "cal01.jpg"
+            source: "01cal.jpg"
             width: parent.width; height: parent.height
             verticalAlignment: Image.AlignTop
-            fillMode: Image.Stretch
+            fillMode: Image.PreserveAspectCrop
             anchors.fill: parent
         }
 
@@ -205,7 +205,7 @@ Presentation
             source: "cal01.jpg"
             width: parent.width; height: parent.height
             verticalAlignment: Image.AlignTop
-            fillMode: Image.Stretch
+            fillMode: Image.PreserveAspectCrop
             anchors.fill: parent
         }
 
